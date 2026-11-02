@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- TODO: replace the URL below with your own GitHub Pages URL for NationalParks.xsd -->
 <!-- ERROR 1: root element is NationalPark instead of NationalParks -->
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="https://Builder-roberts.github.io/cse445-a4/NationalParks.xsd">
+<NationalPark
+   xmlns="http://www.example.com/NationalParks"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.example.com/NationalParks NationalParks.xsd">
 
   <!-- Sample from Figure 1 (values must match the assignment) -->
   <NationalPark Rating="4.9">
